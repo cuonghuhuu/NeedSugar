@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team F4</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+
+      .team-member {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-right: 10px;
+        padding: 10px;
+        flex-shrink: 0;
+        transition: transform 0.3s ease-in-out;
+        width: 250px;
+      }
+      .team-member img {
+        border-radius: 20px;
+        width: 240px;
+      }
+      .team-member h3 {
+        margin: 10px 0;
+      }
+      .team-member p {
+        margin: 10px 0;
+      }
+      .team-member a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      .team-member a:hover {
+        text-decoration: underline;
+      }
+      .container::-webkit-scrollbar {
+        display: none;
+      }
+      .team-member:hover {
+        transform: translateY(-10px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Team F4</h1>
+      <div class="team-member">
+        <img src="/img/d2f.jpg" />
+        <h3>Phùng Tiến Dũng</h3>
+        <p>Mã Sinh Viên : 20231775</p>
+        <p>
+          Email:
+          <a href="20231775@eaut.edu.vn">20231775@eaut.edu.vn</a>
+        </p>
+      </div>
+      <div class="team-member">
+        <img src="/img/bựa.jpg" />
+        <h3>Lê Văn Cường</h3>
+        <p>Ma Sinh Vien : 20231768</p>
+        <p>Email: <a href="#">20231768@eaut.edu.vn</a></p>
+      </div>
+      <div class="team-member">
+        <img src="/img/chó.jpg" />
+        <h3>Nguyễn Văn Hiếu</h3>
+        <p>Mã Sinh Viên: 20231766</p>
+        <p>Email: <a href="20231766@eaut.edu.vn">20231766@eaut.edu.vn</a></p>
+      </div>
+      <div class="team-member">
+        <img src="/img/dat09.png" />
+        <h3>Đỗ Đức Đạt</h3>
+        <p>Mã Sinh Viên:20231732</p>
+        <p>Email: <a href="20231732@eaut.edu.vn">20231732@eaut.edu.vn</a></p>
+      </div>
+    </div>
+  </body>
+</html>
